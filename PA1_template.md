@@ -69,7 +69,7 @@ hist(totalsteps$steps,
      xlab = "Steps",
      ylab = "Count",
      breaks = 20,
-     main = "Total steps per day")
+     main = "Total Steps Per Day")
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-4-1.png)\
@@ -181,7 +181,7 @@ hist(totalsteps$steps,
      xlab = "Steps",
      ylab = "Count",
      breaks = 20,
-     main = "Total steps per day")
+     main = "Total Steps Per Day (With Imputed Data)")
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-8-1.png)\

@@ -53,7 +53,7 @@ hist(totalsteps$steps,
      xlab = "Steps",
      ylab = "Count",
      breaks = 20,
-     main = "Total steps per day")
+     main = "Total Steps Per Day")
 
 originalmean <- round(mean(totalsteps$steps, na.rm = TRUE))
 originalmedian <- median(totalsteps$steps, na.rm = TRUE)
@@ -122,7 +122,7 @@ hist(totalsteps$steps,
      xlab = "Steps",
      ylab = "Count",
      breaks = 20,
-     main = "Total steps per day")
+     main = "Total Steps Per Day (With Imputed Data)")
 
 newmean <- round(mean(totalsteps$steps, na.rm = TRUE))
 newmedian <- median(totalsteps$steps, na.rm = TRUE)
